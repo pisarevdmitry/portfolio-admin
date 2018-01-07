@@ -1,0 +1,12 @@
+.title{
+  font: rem(21) Roboto-Medium;
+  color: #474b57;
+  margin-bottom: rem(30);
+}
+.skills{
+  display: flex;
+  flex-flow: row wrap;
+@include ipad{
+  flex-direction: column;
+}
+}
